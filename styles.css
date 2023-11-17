@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after{
+    box-sizing: :border-box;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    
+}
+
+.hero{
+    background: url("./images/BeachVacay.jpg") no-repeat fixed center; 
+    min-height: 17rem;
+    position: relative;
+}
+
+.introduction{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    max-width: 15rem;
+    gap: 1rem;
+    align-items: flex-end;
+    text-align: right;
+    top: 1rem;
+    right: 10rem;
+}
+
+.myphoto{
+    
+}
