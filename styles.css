@@ -1,46 +1,222 @@
 *,
 *::before,
 *::after{
-    box-sizing: :border-box;
-    margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     min-height: 100vh;
+    background-color:rgb(184, 158, 255);
 }
 
 nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem
-    
+    overflow: hidden;
+    background-color: darkgrey;
 }
 
 nav ul{
     list-style: none;
-    display: flex;
-    gap: 4rem;
+    margin:0%;
+    padding:0%;
+    font-size: x-large;
+}
+li{
+    float:left;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
     
 }
-
+li a:hover{
+    background-color: rgb(158, 117, 255);
+}
 .hero{
-    background: url("./images/BeachVacay.jpg") no-repeat fixed center; 
-    min-height: 17rem;
-    position: relative;
+    background: url("./images/BeachVacay.jpg") no-repeat; 
+    box-sizing: border-box;
+    background-position: 90% 65%;
+    border-style: groove;
+    color:white;
+   
+    
 }
 
 .introduction{
     display: flex;
-    position: absolute;
-    flex-direction: column;
-    max-width: 15rem;
-    gap: 1rem;
+    flex-direction: column-reverse;
+    text-align: center;
+    font-size: xx-large;
+    margin-right: 10rem;
+    color: white;
     align-items: flex-end;
-    text-align: right;
-    top: 1rem;
-    right: 10rem;
 }
 
+.header-style{
+    text-align: center;
+    word-spacing: 15rem;
+    font-size: 400%;
+    font-weight: 125;
+    color: white;
+    
+}
+
+.mystory{
+    display: flex;
+    margin-left: 20%;
+    width: 60%;
+    align-items: center;
+    color: white;
+    border-bottom: dotted;
+    
+    
+
+}
 .myphoto{
+    width: 20rem;
+    height: auto;
+    border-radius: 600px;
+    border-style: groove;
+    margin-left: 2.9rem;
+}
+.section-header{
+    display: flex;
+    font-size: 65px;
+    margin: auto;
+    color:white;
+    justify-content: center;
+}
+
+.aboutme{
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: auto;
+}
+.section-text{
+    
+    font-size: 28px;
+    font-weight: 125;
+    margin-left: 15rem;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+
+
+.myprojects{
+    display: flex;
+    margin-left: 20%;
+    width: 60%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-bottom-style: dotted;
+    
+}
+
+.projectscontainer{
+    display: flex;
+    transition-property:all;
+    transition-duration: 200ms;
+    font-size: x-large;
+    text-align: center;
+}
+.projectscontainer img:hover{
+    transform:scale(1.2);
+}
+
+.githublogo{
+    width: 600px;
+    height: auto;
+    
+}
+
+.moneytransfer{
+    width: 15rem;
+    height: auto;
+    border-radius: 100%;
+    border-style: groove;
+}
+.rpsls{
+    width: 15rem;
+    height: auto;
+    border-radius: 100%;
+    border-style: groove;
+    
+}
+
+.musiclibrarybackend{
+    width: 15rem;
+    height: 11rem;
+    border-radius: 100%;
+    border-style: groove;
+    
+}
+
+.comingsoon{
+    width: 14rem;
+    height: 11rem;
+    border-radius: 100%;
+    border-style: groove;
+    
+}
+.contactme{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+}
+
+.contactmecontainer{
+    display: flex;
+    transition-property:all;
+    transition-duration: 200ms;
+    font-size: x-large;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contactmecontainer img:hover{
+    transform:scale(1.2);
+}
+.facebook{
+    width: 4rem;
+    height: auto;
+    
+}
+
+.linkedin{
+    width: 8.5rem;
+    height: auto;
+    
+}
+
+.paypal{
+    width: 6rem;
+    height: auto;
+    
+}
+
+.instagram{
+    width: 7.3rem;
+    height: auto;
+    
+}
+
+.whatsapp{
+    width: 8rem;
+    height: auto;
+   
+}
+
+.gmail{
+    width: 6.7rem;
+    height: auto;
     
 }
